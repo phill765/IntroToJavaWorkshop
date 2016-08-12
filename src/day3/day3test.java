@@ -5,7 +5,7 @@ import org.jointheleague.graphical.robot.Robot;
 public class day3test {
 	public static void main(String[] args) {
 		Robot Tommy= new Robot();
-		int tri=360/3;
+		int tri=3;
 		int heh=1000000000;
 		while(heh>=2){
 			Tommy.setRandomPenColor();
@@ -13,7 +13,7 @@ public class day3test {
 			Tommy.penDown();
 			Tommy.move(tri);
 			Tommy.turn(tri);
-			tri=tri/3;
+			tri=tri*3;
 			
 			
 			
